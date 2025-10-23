@@ -24,8 +24,16 @@ javac -d bin src/com/shopping/*.java
 
 ## How to Run
 
+### Run the GUI Application
+
 ```bash
 java -cp bin com.shopping.ShoppingCartGUI
+```
+
+### Run the Test (Console-based)
+
+```bash
+java -cp bin com.shopping.ShoppingCartTest
 ```
 
 ## Usage
@@ -47,7 +55,8 @@ Shoppingcart/
 │       └── shopping/
 │           ├── Product.java           # Product model class
 │           ├── ShoppingCart.java      # Cart management class
-│           └── ShoppingCartGUI.java   # Main GUI application
+│           ├── ShoppingCartGUI.java   # Main GUI application
+│           └── ShoppingCartTest.java  # Console test application
 ├── .gitignore
 └── README.md
 ```
